@@ -1,0 +1,80 @@
+name: protohealth
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # for firebase authentication
+  firebase_auth: ^0.16.1
+  # for Google Sign-In
+  google_sign_in: ^4.5.1
+  # for Cloud Firestore
+  cloud_firestore: ^0.13.7
+  # for Firebase Cloud Messaging
+  firebase_messaging: ^6.0.16
+  # Logger by Google developers
+  logging: ^0.11.4
+  # Service locator
+  get_it: ^4.0.4
+  # Bloc for state management
+  flutter_bloc: ^6.0.1
+  # Value equality
+  equatable: ^1.2.3
+  # Local cache
+  shared_preferences: ^0.5.8
+  # Location Permission
+  location: ^3.0.2
+  # API for generic location
+  geolocator: ^5.3.2+2
+  # Integrating Google maps
+  google_maps_flutter: ^0.5.29
+  # Autocomplete google maps
+  flutter_google_places: ^0.2.6
+  # UUID Generator for identifier
+  uuid: ^2.2.0
+  # for handle back exit
+  double_back_to_close_app: ^1.2.0
+  # helper for scroll to an item
+  scrollable_positioned_list: ^0.1.7
+  # Navigation lib
+  getx: ^0.0.1
+  # http client
+  dio: ^3.0.9
+  # google font
+  google_fonts: ^1.1.0
+  # animated size and fade
+  animated_size_and_fade: ^1.1.1
+  # cached_network_image
+  cached_network_image: ^2.2.0+1
+  # For on boarding page
+  dots_indicator: ^1.2.0
+  http: ^0.12.2
+  flushbar: ^1.10.4
+  lottie: ^0.5.1
+  background_location: ^0.1.2
+  url_launcher: ^5.5.0
+  # for chart
+  fl_chart: ^0.11.0
+  connectivity: ^0.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - language/
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
+
